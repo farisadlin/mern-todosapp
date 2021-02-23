@@ -1,0 +1,160 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-image: linear-gradient(rgba(80, 52, 255, 0.5), rgba(80, 52, 255, 0.5)), url('/Mockup/mockup-files/hero-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+
+.hero-section > h1, p {
+    color: #fff;
+    margin: 20px 0;
+}
+
+.hero-section > h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero-section > p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.hero-section>.btn{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px 0;
+}
+.hero-section>.btn>button {
+    border-radius: 15px;
+    padding: 10px 5px;
+    width: 100px;
+    margin: 0 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.hero-section>.btn>.signup {
+    border-radius: 15px;
+    background-color: #5034FF;
+    color: #fff;
+}
+
+.hero-section>.btn>.signup:hover {
+    filter: brightness(0.8);
+    color: #fff;
+}
+
+.hero-section>.btn>.login:hover {
+    filter: brightness(0.8);
+    color: #000;
+}
+
+/* Signup Section */
+
+.navbar {
+    margin: 0;
+    background-color: #C4C4C4;
+}
+.navbar > ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin: 0 30px 0 0;
+    padding: 10px 0;
+}
+
+.navbar > ul > li {
+    margin: 10px 10px;
+    font-size: 1.25em;
+}
+
+.signup-section {
+    margin: 20px;
+}
+
+.signup-form > .title {
+    font-size: 3rem;
+    color: #5034FF;
+}
+.signup-form > .desc {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.signup-form > .desc > p {
+    color: #000;
+    font-size: 1em;
+    margin: 0 0 0 10px;
+}
+.signup-form > .desc > i {
+    color: #000;
+    font-size: 1em;
+    margin: 0 0 0 10px;
+}
+
+.signup-form > form {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 10px 0;
+}
+
+.signup-form > form > input {
+    margin: 5px 0;
+    height: 25px;
+}
+.signup-form > form > input[type="button"] {
+    display: flex;
+    width: 75px;
+    justify-content: center;
+}
+
+ul > li > a:link {
+    text-decoration: none;
+    color: #fff;
+}
+ul > li > a:visited {
+    text-decoration: none;
+    color:#fff;
+}
+ul > li > a:hover {
+    text-decoration: none;
+    color: rgba(80, 52, 255, 0.5);
+}
+ul > li > a:active {
+    text-decoration: none;
+}
+
+.fas {
+    color: #000;
+}
+
+
+
